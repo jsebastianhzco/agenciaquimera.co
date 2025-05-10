@@ -3,7 +3,7 @@
  * Plugin Name: agenciaquimera.com
  * Plugin URI: https://agenciaquimera.com
  * Description: Información técnica y de contacto para este sitio desarrollado por Agencia Quimera.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Sebastian Hernandez - Agencia Quimera
  * Author URI: https://agenciaquimera.com
  */
@@ -180,7 +180,7 @@ function quimera_mostrar_footer_en_front() {
                     </p>
                 </div>
                 <div class="quimera-footer-col right">
-                    <span style="margin-right: 10px;">Desarrollado por Agencia Quimera</span>
+                    <span style="margin-right: 10px;">Desarrollado por </span>
                     <a href="https://agenciaquimera.co" target="_blank" style="display: inline-block;">
                         <img src="http://agenciaquimera.co/wp-content/uploads/2024/02/logonav.jpg" alt="Agencia Quimera" style="height: 30px; vertical-align: middle;">
                     </a>
