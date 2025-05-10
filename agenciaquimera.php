@@ -8,6 +8,14 @@
  * Author URI: https://agenciaquimera.com
  */
 
+ require plugin_dir_path(__FILE__) . 'update-checker/plugin-update-checker.php';
+
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/jsebastianhzco/agenciaquimera.co/'
+    __FILE__,
+    'agenciaquimera'
+);
+
 defined('ABSPATH') or die('Acceso no autorizado.');
 
 // Ocultar botón "Desactivar"
