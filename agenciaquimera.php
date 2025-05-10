@@ -11,7 +11,7 @@
  require plugin_dir_path(__FILE__) . 'update-checker/plugin-update-checker.php';
 
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/jsebastianhzco/agenciaquimera.co/'
+    'https://github.com/jsebastianhzco/agenciaquimera.co/',
     __FILE__,
     'agenciaquimera'
 );
