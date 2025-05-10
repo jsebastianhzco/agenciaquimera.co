@@ -7,14 +7,23 @@
  * Author: Sebastian Hernandez - Agencia Quimera
  * Author URI: https://agenciaquimera.com
  */
+ 
+// Requiere el checker moderno con namespace
+require_once __DIR__ . '/update-checker/plugin-update-checker.php';
 
- require plugin_dir_path(__FILE__) . 'update-checker/plugin-update-checker.php';
+// Importar la clase usando el namespace correcto
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+// Obtener el slug dinámicamente (nombre de la carpeta del plugin)
+$plugin_slug = basename(dirname(__FILE__));
+
+// Construir el checker moderno
+$myUpdateChecker = PucFactory::buildUpdateChecker(
     'https://github.com/jsebastianhzco/agenciaquimera.co/',
     __FILE__,
-    'agenciaquimera'
+    $plugin_slug
 );
+
 
 defined('ABSPATH') or die('Acceso no autorizado.');
 
