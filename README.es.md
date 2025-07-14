@@ -26,6 +26,17 @@ Además, incluye mejoras visuales en el frontend:
 
 ---
 
+## ⚙️ CI/CD y Actualizaciones Automáticas
+
+Este plugin incluye integración y despliegue continuo (**CI/CD**) usando **GitHub Actions**, lo que permite que las actualizaciones se desplieguen automáticamente al hacer push en la rama principal.
+
+También integra el componente [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker/releases/tag/v5.6), permitiendo que el plugin verifique actualizaciones desde un repositorio privado de GitHub.
+
+✅ El plugin puede actualizarse automáticamente cuando se instala en sitios de clientes.
+
+
+---
+
 ## 🛡️ Características adicionales
 
 - Protege el plugin para que **no pueda ser desactivado** desde el panel de administración.
