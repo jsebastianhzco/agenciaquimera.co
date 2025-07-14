@@ -26,6 +26,17 @@ It also provides the following frontend enhancements:
 
 ---
 
+---
+
+## ⚙️ CI/CD & Auto Updates
+
+This plugin includes continuous integration and deployment using **GitHub Actions**, allowing automatic updates to be deployed when changes are pushed to the main branch.
+
+It also integrates the [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker/releases/tag/v5.6) to enable custom update checking functionality from a private GitHub repository.
+
+✅ Plugin is able to auto-update itself when deployed on client WordPress sites.
+
+
 ## 🛡️ Extra Features
 
 - Protects itself from being disabled from the admin panel.
