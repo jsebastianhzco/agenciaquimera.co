@@ -1,21 +1,44 @@
 # agenciaquimera.co
-# 🛡️ Plugin WordPress – Agencia Quimera
 
-## 🎯 ¿Qué hace?
+🛡️ **WordPress Plugin – Agencia Quimera**
 
-- Agrega un panel técnico al admin con:
-  - Nombre del sitio
-  - URL
-  - Fecha de desarrollo (primera página creada)
-  - Versión de WordPress y PHP
-  - Theme activo y si es child theme
-  - Estado de SSL y modo debug
-  - Detección de Elementor
+Custom WordPress plugin developed to serve as a digital signature and technical admin panel for agency-built websites.
 
-- Añade un footer personalizado en todas las páginas del frontend con:
-  - Derechos reservados
-  - Firma visual de la agencia (logo + texto)
-  - Diseño responsive con fuente Jost
+---
 
-- Protege el plugin para que **no pueda ser desactivado** desde el admin.
-- Añade un ícono único y estilo visual especial al menú lateral de WordPress.
+## 🎯 What does it do?
+
+This plugin adds a technical panel to the WordPress admin dashboard with the following information:
+
+- Site name and URL
+- Development date (based on first page created)
+- WordPress and PHP version
+- Active theme (and child theme detection)
+- SSL status and debug mode
+- Elementor plugin detection
+
+It also provides the following frontend enhancements:
+
+- Custom footer added to all frontend pages with:
+  - Copyright notice
+  - Visual signature of the agency (logo + text)
+  - Responsive design using the Jost font
+
+---
+
+## 🛡️ Extra Features
+
+- Protects itself from being disabled from the admin panel.
+- Adds a custom icon and visual style to the WordPress admin sidebar.
+
+---
+
+## 💼 Use Case
+
+This plugin is used by **Agencia Quimera** as part of its custom WordPress development workflow, ensuring all websites carry clear authorship, branding, and system metadata in a consistent and visible way.
+
+---
+
+## 📄 License
+
+This project is intended for internal use only. Not published to the WordPress Plugin Directory.
